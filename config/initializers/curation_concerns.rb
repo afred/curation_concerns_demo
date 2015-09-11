@@ -1,4 +1,6 @@
 CurationConcerns.configure do |config|
+  # Injected via `rails g curation_concerns:work VideoFile`
+  config.register_curation_concern :video_file
   config.fits_to_desc_mapping = {
     file_title: :title,
     file_author: :creator
