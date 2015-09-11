@@ -48,3 +48,10 @@ end
 gem 'curation_concerns', github: 'projecthydra-labs/curation_concerns'
 gem 'hydra-pcdm', github: 'projecthydra-labs/hydra-pcdm'
 gem 'hydra-works', github: 'projecthydra-labs/hydra-works'
+gem 'rsolr', '~> 1.0.6'
+gem 'devise'
+gem 'devise-guests', '~> 0.3'
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'jettywrapper'
+end
