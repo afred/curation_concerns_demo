@@ -45,3 +45,6 @@ group :development do
   gem 'spring'
 end
 
+gem 'curation_concerns', github: 'projecthydra-labs/curation_concerns'
+gem 'hydra-pcdm', github: 'projecthydra-labs/hydra-pcdm'
+gem 'hydra-works', github: 'projecthydra-labs/hydra-works'
