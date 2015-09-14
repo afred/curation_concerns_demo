@@ -16,4 +16,9 @@
 !/log/.keep
 /tmp
 
+# Other development stuff
 /jetty
+/jetty.*
+dump.rdb
+redis.out
+resque.out
