@@ -3,7 +3,12 @@
 require 'rails_helper'
 
 describe VideoFile do
-  it "should have some tests" do
-    skip "Add your tests here"
+
+  subject { VideoFile.new }
+
+  describe "#video_format" do
+    it 'returns the video format' do
+      expect(subject.video_format).to eq "something?"
+    end
   end
 end
