@@ -2,7 +2,7 @@ class VideoShowPresenter < CurationConcerns::GenericWorkShowPresenter
 
   extend ActiveSupport::Concern
 
-  def foo
-    "hi am foo"
+  def format
+    solr_document['format_tesim']
   end
 end
