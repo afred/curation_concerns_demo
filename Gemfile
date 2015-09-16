@@ -35,6 +35,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'pry'
+  gem 'rspec-rails'
+  gem 'jettywrapper'
 end
 
 group :development do
@@ -51,7 +54,3 @@ gem 'hydra-works', github: 'projecthydra-labs/hydra-works'
 gem 'rsolr', '~> 1.0.6'
 gem 'devise'
 gem 'devise-guests', '~> 0.3'
-group :development, :test do
-  gem 'rspec-rails'
-  gem 'jettywrapper'
-end
