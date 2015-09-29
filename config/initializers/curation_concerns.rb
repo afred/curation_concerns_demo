@@ -1,4 +1,6 @@
 CurationConcerns.configure do |config|
+  # Injected via `rails g curation_concerns:work Program`
+  config.register_curation_concern :program
   # Injected via `rails g curation_concerns:work Video`
   config.register_curation_concern :video
   config.fits_to_desc_mapping = {
